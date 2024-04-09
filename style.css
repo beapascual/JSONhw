@@ -1,0 +1,82 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "verdana", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(44, 14, 69);
+ font-family: "verdana", sans-serif;
+}
+
+
+h1{
+  color: white;
+  font-family: "lucinda handwriting", cursive;
+  font-size: 18vw;
+}
+#heading{
+  display: flex;
+  width: 100vw;
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-image: url("headBackground.jpg");
+  margin-top: 0px;
+  box-shadow: 10px 10px 20px black;
+}
+
+h3 {
+  font-family: "Lucinda handwriting", cursive;
+  font-size: 4vw;
+}
+h4 {
+  font-size: 3vw ;
+}
+p{
+  font-size: 2vw;
+}
+
+
+#contentContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  padding: 5vmin;
+  font-size: 1.5rem;
+  gap:10vh;
+}
+.contentItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: space-between;
+  padding: 1vw;
+  box-shadow: 0px 0px 15px 10px black;
+  border: 2px solid white;
+}
+.words{
+  display: flex;
+  flex-direction: column;
+  margin: 2vw;
+}
+.images{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+img{
+  aspect-ratio: 4/3;
+  height: 100%;
+  width: 20vw;
+  object-fit: cover;
+}
